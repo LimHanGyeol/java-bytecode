@@ -1,4 +1,4 @@
-package com.tommy;
+package com.tommy.gathering;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package com.tommy;
+package com.tommy.gathering;
 
 public class Gathering {
 
