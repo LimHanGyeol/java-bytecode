@@ -1,13 +1,17 @@
 package com.tommy.book;
 
+@MyAnnotation // 기본값이 지정되어 있어 값을 안줘도 상관 없다.
 public class Book {
 
     private static String B = "BOOK";
 
+    @MyAnnotation(name = "gyeol", number = 1000)
     private static final String c = "BOOK";
 
+    @MyAnnotation("hangyeol")
     private String a = "a";
 
+    @MyAnnotation(value = "hangyeol", number = 500)
     public String d = "d";
 
     protected String e = "e";
