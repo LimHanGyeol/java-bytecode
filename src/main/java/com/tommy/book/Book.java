@@ -19,6 +19,10 @@ public class Book {
     public Book() {
     }
 
+    public Book(String a) {
+        this.a = a;
+    }
+
     public Book(String a, String d, String e) {
         this.a = a;
         this.d = d;
@@ -29,12 +33,11 @@ public class Book {
         System.out.println("F");
     }
 
-    public void g() {
-        System.out.println("g");
+    public int sum(int left, int right) {
+        return left + right;
     }
 
-    public int h() {
-        return 100;
+    public String getA() {
+        return a;
     }
-
 }

@@ -5,6 +5,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+/**
+ * Jacoco 코드 커버리지 측정
+ */
 class GatheringTest {
 
     @Test
