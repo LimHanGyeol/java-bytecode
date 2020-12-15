@@ -1,6 +1,5 @@
 package com.tommy.hat;
 
-import com.sun.org.glassfish.gmbal.Description;
 import net.bytebuddy.ByteBuddy;
 import net.bytebuddy.dynamic.ClassFileLocator;
 import net.bytebuddy.implementation.FixedValue;
@@ -36,8 +35,7 @@ class HatTest {
     }
 
     @Test
-    @DisplayName("모자에서 토끼를 꺼내는 마술2")
-    @Description("코드조작 + 확인 두 동작이 아닌 한번에 마술이 이루어지는 코드")
+    @DisplayName("모자에서 토끼를 꺼내는 마술2") // "코드조작 + 확인 두 동작이 아닌 한번에 마술이 이루어지는 코드"
     void magic2() {
         ClassLoader classLoader = Hat.class.getClassLoader();
         TypePool typePool = TypePool.Default.of(classLoader);
