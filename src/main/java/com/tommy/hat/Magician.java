@@ -15,7 +15,9 @@ public class Magician {
      * @param args
      */
     public static void main(String[] args) {
-        System.out.println(new Hat().pullOut());
+        Moja moja = new MagicHat();
+        System.out.println(moja.pullOut());
+//        System.out.println(new Hat().pullOut());
     }
 
 }
